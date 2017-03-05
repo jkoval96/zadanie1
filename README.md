@@ -1,1 +1,3 @@
-# zadanie1
+# Zadanie1
+
+Zahrievacie zadanie
