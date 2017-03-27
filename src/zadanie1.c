@@ -17,9 +17,10 @@ short int swap_endianness2(short int x) {
 
 short int swap_endianness3(short int x) {
 	unsigned char res[2];
-	unsigned char tmp = res[0];
+	unsigned char tmp;
 	
 	memcpy(&res, &x, 2);
+	tmp = res[0];
 	res[0] = res[1];
 	res[1] = tmp;
 	memcpy(&x, &res, 2);
